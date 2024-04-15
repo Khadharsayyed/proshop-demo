@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "label": "firstName",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1ltpg8x",
+        "columns": null
+      },
+      "id": "Field_12hvr35",
+      "key": "firstName"
+    },
+    {
+      "label": "lastName",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1mzy0v2",
+        "columns": null
+      },
+      "id": "Field_1rg111u",
+      "key": "lastName"
+    },
+    {
+      "label": "streetNumber",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0rl27ax",
+        "columns": null
+      },
+      "id": "Field_0biu9mm",
+      "key": "streetNumber"
+    },
+    {
+      "label": "streetName",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0zg1df8",
+        "columns": null
+      },
+      "id": "Field_03jrq2y",
+      "key": "streetName"
+    },
+    {
+      "label": "city",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0bfpho0",
+        "columns": null
+      },
+      "id": "Field_0j2tkym",
+      "key": "city"
+    },
+    {
+      "label": "state",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1icmfv4",
+        "columns": null
+      },
+      "id": "Field_04qcr2k",
+      "key": "state"
+    },
+    {
+      "label": "zipCode",
+      "type": "textfield",
+      "layout": {
+        "row": null,
+        "columns": null
+      },
+      "id": "Field_0tlkau0",
+      "key": "zipCode"
+    }
+  ],
+  "type": "default",
+  "id": "Form_17rno1w",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.13.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 9
+}

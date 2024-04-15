@@ -1,0 +1,33 @@
+{
+  "components": [
+    {
+      "values": [
+        {
+          "label": "Approve",
+          "value": "approved"
+        },
+        {
+          "label": "Reject",
+          "value": "rejected"
+        }
+      ],
+      "label": "Approval",
+      "type": "radio",
+      "layout": {
+        "row": "Row_1r9lg0i",
+        "columns": null
+      },
+      "id": "Field_1frin9p",
+      "key": "approval"
+    }
+  ],
+  "type": "default",
+  "id": "Approve_form",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.18.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 13
+}

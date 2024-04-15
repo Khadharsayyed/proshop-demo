@@ -1,0 +1,110 @@
+{
+  "components": [
+    {
+      "label": "First Name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0d89bfy",
+        "columns": null
+      },
+      "id": "Field_0dmxduy",
+      "key": "firstName",
+      "validate": {
+        "required": true,
+        "pattern": "^[a-zA-Z]+$"
+      }
+    },
+    {
+      "label": "Last name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0wmlr51",
+        "columns": null
+      },
+      "id": "Field_01ocgki",
+      "key": "lastName",
+      "validate": {
+        "pattern": "^[a-zA-Z]+$",
+        "required": true
+      }
+    },
+    {
+      "label": "Street number",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_06utchz",
+        "columns": null
+      },
+      "id": "Field_11wk35g",
+      "key": "streetNumber",
+      "validate": {
+        "pattern": "^[0-9]+$",
+        "required": false
+      }
+    },
+    {
+      "label": "Street Name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0637lvk",
+        "columns": null
+      },
+      "id": "Field_1jsv4a9",
+      "key": "streetName",
+      "validate": {
+        "pattern": "^[a-zA-Z\\s,]+$",
+        "required": true
+      }
+    },
+    {
+      "label": "City",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_13cz9yk",
+        "columns": null
+      },
+      "id": "Field_0xilcpr",
+      "key": "city",
+      "validate": {
+        "pattern": "^[a-zA-Z\\s]+$",
+        "required": true
+      }
+    },
+    {
+      "label": "State",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1utwb1r",
+        "columns": null
+      },
+      "id": "Field_0hnepgj",
+      "key": "state",
+      "validate": {
+        "pattern": "^[a-zA-Z\\s]+$"
+      }
+    },
+    {
+      "label": "zip code",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0ucezez",
+        "columns": null
+      },
+      "id": "Field_1e80qk6",
+      "key": "zipCode",
+      "validate": {
+        "pattern": "^[0-9]+$",
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "User_Details_Form",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.18.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 13
+}
